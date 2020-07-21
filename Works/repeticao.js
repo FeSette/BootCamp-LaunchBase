@@ -38,7 +38,7 @@ const AlunosTurmaB = [
   }
 ]
 
-function CalculaMedia (Alunos) {
+function CalculaMedia (Alunos) { 
   let soma = 0
   for (let i = 0; i < Alunos.length; i++){
       soma = soma + Alunos[i].nota
@@ -62,10 +62,3 @@ function EnviaMensagem(Media, Turma){
 
 EnviaMensagem(MediaA, 'A')
 EnviaMensagem(MediaB, 'B')
-
-
-
-
-
-
-
