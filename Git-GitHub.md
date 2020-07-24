@@ -58,16 +58,16 @@ Preencha as informações como o nome do repositório, a descrição, se é púb
 > `git status`
 
 ## Principais comandos do Git
-<br>\> git init \|\| Inicia a linha do tempo do Git
-<br>> `git add` \|\| adiciona ou atualiza mudanças
-> `git commit` \|\| salva as alterações e adições
-> `git log` \|\| visualiza os commits realizados
-> `git status` \|\| informa o estado das alterações do nosso projeto
-> `git show `\|\| apresenta determinado commit
-> `git branch` \|\| gerência novas linhas do tempo
-> `git checkout` \|\| manipula as linhas do tempo
-> `git merge `\|\| uni as linhas do tempo
-> `git clone` \|\| clonar um projeto / repositório
-> `git pull `\|\| puxa do repositório remoto
-> `git add .` \|\| Adiciona e salva qualquer alteração\, mas depois de um comit
+> `git init`\|\| Inicia a linha do tempo do Git <br>
+> `git add` \|\| adiciona ou atualiza mudanças <br>
+> `git commit` \|\| salva as alterações e adições <br>
+> `git log` \|\| visualiza os commits realizados <br>
+> `git status` \|\| informa o estado das alterações do nosso projeto <br>
+> `git show `\|\| apresenta determinado commit <br>
+> `git branch` \|\| gerência novas linhas do tempo <br>
+> `git checkout` \|\| manipula as linhas do tempo <br>
+> `git merge `\|\| uni as linhas do tempo <br>
+> `git clone` \|\| clonar um projeto / repositório <br>
+> `git pull `\|\| puxa do repositório remoto <br>
+> `git add .` \|\| Adiciona e salva qualquer alteração\, mas depois de um comit <br>
 > `git push` \|\| Envia os arquivos para a nuvem GITHUB
