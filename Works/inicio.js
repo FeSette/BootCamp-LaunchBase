@@ -1,4 +1,4 @@
 // iniciando com o JavaScript.
 
-const nome = 'Felipe'
-console.log(nome)
+const nome = 'Felipe';
+console.log(nome);
