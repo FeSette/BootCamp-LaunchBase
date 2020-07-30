@@ -1,6 +1,6 @@
 // Criar um programa que calcule a média das turmas de alunos, e que mostre a média.
 
-const AlunosTurmaA = [
+const alunosTurmaA = [
   {
       nome: 'Felipe',
       nota: 9.8
@@ -13,9 +13,9 @@ const AlunosTurmaA = [
       nome: 'Henrique',
       nota: 2
   }
-]
+];
 
-const AlunosTurmaB = [
+const alunosTurmaB = [
   {
       nome: 'Fabiana',
       nota: 2
@@ -28,24 +28,24 @@ const AlunosTurmaB = [
       nome: 'Juliana',
       nota: 2
   }
-]
+];
 
-function CalculaMedia (Alunos) {
-  return ( Alunos[0].nota + Alunos[1].nota + Alunos[2].nota ) / 3
+function calculaMedia (alunos) {
+  return ( alunos[0].nota + alunos[1].nota + alunos[2].nota ) / 3;
 }
 
-const MediaA = CalculaMedia(AlunosTurmaA)
-const MediaB = CalculaMedia(AlunosTurmaB)
+const mediaA = calculaMedia(alunosTurmaA);
+const mediaB = calculaMedia(alunosTurmaB);
 
 // Se a média for maior que 5, parabenizar a turma
 
-function EnviaMensagem(Media, Turma){
-  if (Media > 5) {
-      console.log (`A média da turma ${Turma} foi de ${Media}. Parabéns`)
+function enviaMensagem(media, turma){
+  if (media > 5) {
+      console.log (`A média da turma ${turma} foi de ${media}. Parabéns`);
   } else {
-      console.log (`A média da turma ${Turma} foi de ${Media}, menor que 5. Precisamos melhorar!`)
+      console.log (`A média da turma ${turma} foi de ${media}, menor que 5. Precisamos melhorar!`);
   }
 }
 
-EnviaMensagem(MediaA, 'A')
-EnviaMensagem(MediaB, 'B')
+enviaMensagem(mediaA, 'A');
+enviaMensagem(mediaB, 'B');
