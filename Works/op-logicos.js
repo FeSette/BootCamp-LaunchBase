@@ -9,18 +9,18 @@
 
 ==============================================================*/
 
-console.log ( 5 == 5 && 6 == 6 )        // TRUE
-console.log ( 5 == 5 && 6 != 6 )        // FALSE
-console.log ( 5 == 5 || 6 == 6 )        // TRUE
-console.log ( 5 == 5 || 6 == 6 )        // TRUE
-console.log (!(5 > 6 ))                 // TRUE
-console.log (!(5 < 6 ))                 // FALSE
+console.log ( 5 == 5 && 6 == 6 );        // TRUE
+console.log ( 5 == 5 && 6 != 6 );        // FALSE
+console.log ( 5 == 5 || 6 == 6 );        // TRUE
+console.log ( 5 == 5 || 6 == 6 );        // TRUE
+console.log (!(5 > 6 ));                 // TRUE
+console.log (!(5 < 6 ));                 // FALSE
 
 
-const idade = 16
+const idade = 16;
 
 if (!( idade >= 18 ) || idade === 17 ) {
-    console.log('Bloquear a entrada')  
+    console.log('Bloquear a entrada');  
 } else {
-    console.log('Deixar entrar')
+    console.log('Deixar entrar');
 }
