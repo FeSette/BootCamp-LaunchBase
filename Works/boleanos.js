@@ -1,6 +1,6 @@
 // Criar um programa que calcule a média das turmas de alunos, e que mostre a média.
 
-const AlunosTurmaA = [
+const alunosTurmaA = [
   {
     nome: 'Felipe',
     nota: 9.8
@@ -17,9 +17,9 @@ const AlunosTurmaA = [
     nome: 'Gabriel',
     nota: 6
   }
-]
+];
 
-const AlunosTurmaB = [
+const alunosTurmaB = [
   {
     nome: 'Fabiana',
     nota: 2
@@ -36,55 +36,55 @@ const AlunosTurmaB = [
     nome: 'Rose',
     nota: 7
   }
-]
+];
 
-function CalculaMedia(Alunos) {
+function calculaMedia(alunos) {
   let soma = 0
-  for (let i = 0; i < Alunos.length; i++) {
-    soma = soma + Alunos[i].nota
+  for (let i = 0; i < alunos.length; i++) {
+    soma = soma + alunos[i].nota
   }
-  const Media = soma / Alunos.length
-  return Media
+  const media = soma / alunos.length;
+  return media;
 }
 
-const MediaA = CalculaMedia(AlunosTurmaA)
-const MediaB = CalculaMedia(AlunosTurmaB)
+const mediaA = calculaMedia(alunosTurmaA);
+const mediaB = calculaMedia(alunosTurmaB);
 
 // Se a média for maior que 5, parabenizar a turma
 
-function EnviaMensagem(Media, Turma) {
-  if (Media > 5) {
-    console.log(`A média da turma ${Turma} foi de ${Media}. Parabéns`)
+function enviaMensagem(media, turma) {
+  if (media > 5) {
+    console.log(`A média da turma ${turma} foi de ${media}. Parabéns`);
   } else {
-    console.log(`A média da turma ${Turma} foi de ${Media}, menor que 5. Precisamos melhorar!`)
+    console.log(`A média da turma ${turma} foi de ${media}, menor que 5. Precisamos melhorar!`);
   }
-}
+};
 
-EnviaMensagem(MediaA, 'A')
-EnviaMensagem(MediaB, 'B')
+enviaMensagem(mediaA, 'A');
+enviaMensagem(mediaB, 'B');
 
 // Mostrar alunos como reprovados se a nota for menor que 5.
 
 function marcarComoReprovado(aluno) {
-  aluno.reprovado = false
+  aluno.reprovado = false;
   if (aluno.nota < 5) {
-    aluno.reprovado = true
+    aluno.reprovado = true;
   }
-}
-marcarComoReprovado(AlunosTurmaA)
+};
+marcarComoReprovado(alunosTurmaA);
 
 function enviarMensagemReprovado(aluno) {
   if (aluno.reprovado) {
-    console.log(`O Aluno ${aluno.nome} está reprovado!`)
+    console.log(`O Aluno ${aluno.nome} está reprovado!`);
   }
-}
+};
 
 function alunoReprovado(alunos) {
   for (let aluno of alunos) {
-    marcarComoReprovado(aluno)
-    enviarMensagemReprovado(aluno)
+    marcarComoReprovado(aluno);
+    enviarMensagemReprovado(aluno);
   }
-}
+};
 
-alunoReprovado(AlunosTurmaA)
-alunoReprovado(AlunosTurmaB)
+alunoReprovado(alunosTurmaA);
+alunoReprovado(alunosTurmaB);
