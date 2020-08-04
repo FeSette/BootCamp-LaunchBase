@@ -4,26 +4,26 @@ tecnologias em um array. As tecnologias também devem ser objetos contendo nome
 e especialidade */
 
 const Programador = {
-  Nome: 'Felipe',
-  Idade: 27,
-  Tecnologias: [
+  nome: 'Felipe',
+  idade: 27,
+  tecnologias: [
       {
           nome: 'C++',
-          Especialidade: 'Desktop'
+          especialidade: 'Desktop'
       },
       {
           nome: 'JavaScript',
-          Especialidade: 'Web/Mobile'
+          especialidade: 'Web/Mobile'
       },
       {
           nome: 'Python',
-          Especialidade: 'Data Science'
+          especialidade: 'Data Science'
       }
   ]
-}
+};
 
 /* Imprima em tela o nome e especialidade da primeira tecnologia que o 
 usuário utiliza */
 
 
-console.log(`O usuário ${Programador.Nome} tem ${Programador.Idade} anos e usa a tecnologia ${Programador.Tecnologias[0].nome} com especialidade em ${Programador.Tecnologias[0].Especialidade}.`)
+console.log(`O usuário ${Programador.nome} tem ${Programador.idade} anos e usa a tecnologia ${Programador.tecnologias[0].nome} com especialidade em ${Programador.tecnologias[0].especialidade}.`);
