@@ -11,8 +11,8 @@ const usuarios = [
       nome: 'Tuane',
       tecnologias: ['HTML', 'Node.js']
   }
-]
+];
 
 for (let usuario of usuarios){
-  console.log (`${usuario.nome} trabalha com ${usuario.tecnologias.join(', ')}`)
+  console.log (`${usuario.nome} trabalha com ${usuario.tecnologias.join(', ')}`);
 }
