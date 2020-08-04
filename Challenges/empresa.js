@@ -3,14 +3,14 @@ objeto chamado empresa.*/
 
 const Empresa = {
   nome: 'Rocketseat',
-  Cor: 'Roxo',
-  Foco: 'Programação',
-  Endereço: {
+  cor: 'Roxo',
+  foco: 'Programação',
+  endereço: {
       rua: 'Rua Guilherme Gembala',
-      Numero: 260
+      numero: 260
   }    
-}
+};
 
 // Imprima em tela utilizando console.log o nome da empresa e seu endereço
 
-console.log (`A empresa ${Empresa.nome} está localizada em ${Empresa.Endereço.rua}, ${Empresa.Endereço.Numero}.`)
+console.log (`A empresa ${Empresa.nome} está localizada em ${Empresa.endereço.rua}, ${Empresa.endereço.numero}.`);
