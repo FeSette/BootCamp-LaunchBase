@@ -63,7 +63,7 @@ function enviaMensagem(media, turma) {
 enviaMensagem(mediaA, 'A');
 enviaMensagem(mediaB, 'B');
 
-// Mostrar alunos como reprovados se a nota for menor que 5.
+// Mostrar alunos como reprovados se a nota for menor que 5..
 
 function marcarComoReprovado(aluno) {
   aluno.reprovado = false;
