@@ -1,7 +1,7 @@
 /* Criar um programa que calcule a média das notas entre os alunos, 
 e que mostre a média.*/
 
-const Alunos = [
+const alunos = [
   {
       nome: 'Felipe',
       nota: 9.8
@@ -16,7 +16,7 @@ const Alunos = [
   }
 ];
 
-const media = ( Alunos[0].nota + Alunos[1].nota + Alunos[2].nota ) / 3;
+const media = ( alunos[0].nota + alunos[1].nota + alunos[2].nota ) / 3;
 
 // Se a média for maior que 5, parabenizar a turma
 
